@@ -1,0 +1,108 @@
+body {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    text-align: center;
+    font-family: sans-serif;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+
+    background-image: url('Media/DYP_Circle.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+.mainBox {
+    text-align: center;
+    border: 3px solid rgb(37, 35, 35);
+    border-radius: 30px;
+    width: 600px;
+    margin: 30px auto;
+    box-shadow: 5px 5px 40px rgb(44, 41, 41);
+}
+
+.input {
+    text-align: center;
+    display: block;
+    width: 500px;
+    margin: 15px auto;
+    padding: 8px;
+    border: 2px solid gray;
+    border-radius: 15px;
+    height: 25px;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.texti {
+    height: 100px;
+}
+
+.btn {
+    width: 150px;
+    margin: 20px;
+    font-size: 1.25rem;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 1.15%;
+}
+
+.submitMsg {
+    color: green;
+    background-color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.submit {
+    background-color: rgb(196, 239, 196);
+}
+
+.btn:hover {
+    background-color: rgb(127, 189, 158);
+}
+
+#contactHead {
+    color: black;
+    margin: 6%;
+    font-size: 2.2rem;
+    margin-bottom: 0px;
+    font-family: 'Ruwudu', serif;
+}
+
+/* main page MediaQueries */
+
+@media screen and (max-width: 830px) {
+    .mainBox {
+        width: 75%;
+        margin: 10% auto;
+    }
+
+    .input {
+        width: 75%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .input {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    
+    .mainBox {
+        width: 90%;
+    }
+
+    .input {
+        width: 80%;
+
+    }
+
+    #contactHead{
+        line-height: 1.2;
+    }
+
+}
